@@ -12,7 +12,7 @@ import {RouterLink} from '@angular/router';
         class="listing-photo"
         [src]="housingLocation.photo"
         alt="Photo of {{ housingLocation.name }}"
-        crossorigin
+        anonymous
       />
       <h2 class="listing-heading">{{ housingLocation.name }}</h2>
       <p class="listing-location">
